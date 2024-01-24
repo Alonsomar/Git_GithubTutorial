@@ -11,7 +11,7 @@ En git, existen 3 diferentes "estados" de la información.
 - Stage: Temporary file area, files that want to update by commit.
 - Commit: Etapa de guardado del estado de los archivos.
 
-# Setup
+## Setup
 **Configuring user information used across all local repositories**
 
 set a name that is identificable for credit when review version history
@@ -24,7 +24,7 @@ set automatic command line coloring for Git for easy reviewing
 `git config --global color.ui auto ` 
 
 
-# Setup & init
+## Setup & init
 **Configuring user information, initializing and cloning repositories**
 
 initialize an existing directory as a Git repository
@@ -34,7 +34,7 @@ retrieve an entire repository from a hosted location via URL
 `git clone [url]`
 
 
-# Stage & snapshot
+## Stage & snapshot
 **Working with snapshots and the Git staging area**
 
 show modified files in working directory, staged for your next commit
@@ -56,7 +56,7 @@ commit your staged content as a new commit snapshot
 `git commit -m "[descriptive message]"`
 
 
-# Branch & merge
+## Branch & merge
 **Isolating work in branches, changing context, and integrating changes**
 
 list your branches. a * will appear next to the currently active branch
@@ -75,7 +75,7 @@ show all commits in the current branch’s history
 `git log`
 
 
-# Inspect & compare
+## Inspect & compare
 **Examining logs, diffs and object information**
 
 show the commit history for the currently active branch
@@ -94,7 +94,7 @@ show any object in Git in human-readable format
 `git show [SHA]`
 
 
-# Tracking path changes
+## Tracking path changes
 **Versioning file removes and path changes**
 
 delete the file from project and stage the removal for commit
@@ -106,7 +106,7 @@ change an existing file path and stage the move
 show all commit logs with indication of any paths that moved
 `git log --stat -M`
 
-# Ignoring patterns
+## Ignoring patterns
 **Preventing unintentional staging or commiting of files**
 
 Save a file with desired paterns as .gitignore with either direct string matches or wildcard globs.
@@ -120,7 +120,7 @@ system wide ignore patern for all local repositories
 `git config --global core.excludesfile [file]`
 
 
-# Share & update
+## Share & update
 **Retrieving updates from another repository and updating local repos**
 
 add a git URL as an alias
@@ -139,7 +139,7 @@ fetch and merge any commits from the tracking remote branch
 `git pull`
 
 
-# Rewrite history
+## Rewrite history
 **Rewriting branches, updating commits and clearing history**
 
 apply any commits of current branch ahead of specified one
@@ -149,7 +149,7 @@ clear staging area, rewrite working tree from specified commit
 `git reset --hard [commit]`
 
 
-# Temporary commits
+## Temporary commits
 **Temporarily store modified, tracked files in order to change branches**
 
 Save modified and staged changes
